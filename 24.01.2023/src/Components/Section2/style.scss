@@ -1,0 +1,116 @@
+.Our-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .Our-three {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+
+        .Our-proqram-text {
+            width: 80%;
+            display: flex;
+
+            flex-direction: column;
+
+            h3 {
+
+                text-align: center;
+                font-size: 40px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 25px;
+                color: gray;
+            }
+        }
+
+        .We-are-excellent {
+            width: 100%;
+            display: flex;
+            gap: 60px;
+
+            .We-are-excellent-img {
+                width: 60%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .We-are-excellent-text {
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+
+                .We-are-excellent-text-icon {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    i {
+                        color: blue;
+                    }
+
+                    p {
+                        color: blue;
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+
+        .We-are-excellent2 {
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 60px;
+
+            .We-are-excellent-img2 {
+                width: 60%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .We-are-excellent-text2 {
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+
+                .We-are-excellent-text-icon2 {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+
+                    i {
+                        color: blue;
+                    }
+
+                    p {
+                        color: blue;
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+}
